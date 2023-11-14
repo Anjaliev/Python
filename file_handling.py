@@ -1,5 +1,3 @@
-def fread(fname):
-    with open(fname) as f:
-        c = f.readlines()
-        print(c)
-fread("demo.txt")
+f=open("demo.txt","r")
+a=f.readlines()
+print(a)
